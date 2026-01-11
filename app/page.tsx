@@ -130,7 +130,7 @@ export default function Home() {
       <section className="relative flex flex-col lg:flex-row items-center justify-center min-h-screen p-4 gap-4 bg-linear-to-br from-primary-100 to-[#3b4ac2] py-20">
         <div className="flex flex-col text-background gap-4">
           <h1 className="text-4xl font-bold">Reparación de Celulares con dedicación</h1>
-          <p className="text-lg">Reparo tu celular con atención personalizada y repuestos de calidad. Cada dispositivo recibe mi total dedicación para dejarlo como nuevo.</p>
+          <p className="text-lg">Reparo tu celular con atención personalizada y repuestos de calidad. También lo reviso para hacer un diagnóstico sin cargo.</p>
           <div className="self-start flex gap-4 mt-2 flex-wrap">
             <Link href="#servicios" className="bg-accent-100 text-background p-3 px-5 text-sm font-bold rounded-lg secondary-button">Ver Servicios</Link>
             <Link href="#contacto" className="bg-background text-primary-100 p-3 px-5 text-sm font-bold rounded-lg primary-button">Contactame</Link>
@@ -167,7 +167,7 @@ export default function Home() {
         </div>
         <div className="mt-8">
           <h2 className="text-3xl text-primary-100 mb-4">¿Por Qué Elegirme?</h2>
-          <p className="text-lg mb-6">Como técnico independiente, ofrezco un servicio personalizado y atención al detalle que las grandes tiendas no pueden igualar. Cada reparación recibe mi total dedicación para asegurar que tu celular funcione perfectamente.</p>
+          <p className="text-lg mb-6">Como técnico independiente, ofrezco un servicio personalizado y atención al detalle que las grandes tiendas no pueden igualar. Cada reparación recibe mi total dedicación para asegurar que tu celular funcione perfectamente. Además, reviso tu celular para poder hacer un diagnóstico sin cargo.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {caracteristicas.map((caracteristica, index) => (
               <article key={index} className="flex items-center gap-4 mb-6">
