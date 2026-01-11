@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
-import { faWhatsapp, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faMobileScreen, faDroplet, faBolt, faMicrochip, faWrench, faBattery, faHeart, faClock, faDollarSign, faShield, faEnvelope, faLocation, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Fixum | Reparación de Celulares en San Miguel',
     description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',
-    url: 'https://fixum-reparaciones.vercel.app',
+    url: 'https://fixum.vercel.app',
     siteName: 'Fixum Reparaciones',
     locale: 'es_AR',
     type: 'website',

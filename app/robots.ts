@@ -12,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
                 allow: '/',
             }
         ],
-        sitemap: 'https://fixum-reparaciones.vercel.app/sitemap.xml',
+        sitemap: 'https://fixum.vercel.app/sitemap.xml',
     }
 }

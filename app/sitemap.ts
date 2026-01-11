@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://fixum-reparaciones.vercel.app";
+  const baseUrl = "https://fixum.vercel.app";
   return [
     {
         url: baseUrl,
