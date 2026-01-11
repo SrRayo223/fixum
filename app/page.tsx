@@ -84,20 +84,29 @@ const contactInfo = [
 ];
 
 export const metadata: Metadata = {
-  title: 'Fixum | Reparación de Celulares en San Miguel',
+  title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
   description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',
   keywords: ['reparación de celulares', 'reparación de teléfonos', 'servicio técnico móvil', 'reparación de pantallas', 'cambio de baterías', 'reparación de hardware', 'San Miguel', 'Buenos Aires', 'técnico', 'fixum', 'pin de carga', 'daño por agua', 'problemas de software', 'servicio rápido', 'barato', 'calidad', 'premium', 'atención personalizada', 'cámara', 'altavoz', 'botones', 'diagnóstico gratuito', 'presupuesto'],
   openGraph: {
-    title: 'Fixum | Reparación de Celulares en San Miguel',
+    title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
     description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',
     url: 'https://fixum.vercel.app',
     siteName: 'Fixum Reparaciones',
     locale: 'es_AR',
     type: 'website',
+    images: [
+      {
+        url: 'https://fixum.vercel.app/images/hero-image.jpg',
+        width: 1080,
+        height: 720,
+        alt: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
+      },
+    ],
   },
   twitter: {
     title: 'Fixum | Reparación de Celulares en San Miguel',
     card: 'summary_large_image',
+    images: ['https://fixum.vercel.app/images/hero-image.jpg'],
   },
   robots: {
     index: true,

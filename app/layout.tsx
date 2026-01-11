@@ -22,8 +22,8 @@ const montserrat = Montserrat(
 );
 
 export const metadata: Metadata = {
-  title: "Fixum | Reparación de dispositivos móviles",
-  description: "Fixum es tu solución confiable para el diagnóstico y reparación de tu teléfono celular. Ofrecemos servicios rápidos y profesionales para que tu dispositivo vuelva a funcionar como nuevo.",
+  title: "Fixum | Reparación y diagnóstico de Celulares en San Miguel",
+  description: "Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!",
 };
 
 export default function RootLayout({
