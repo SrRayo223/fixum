@@ -86,7 +86,7 @@ const contactInfo = [
 export const metadata: Metadata = {
   title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
   description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',
-  keywords: ['reparación de celulares', 'reparación de teléfonos', 'servicio técnico móvil', 'reparación de pantallas', 'cambio de baterías', 'reparación de hardware', 'San Miguel', 'Buenos Aires', 'técnico', 'fixum', 'pin de carga', 'daño por agua', 'problemas de software', 'servicio rápido', 'barato', 'calidad', 'premium', 'atención personalizada', 'cámara', 'altavoz', 'botones', 'diagnóstico gratuito', 'presupuesto'],
+  keywords: ['reparación de celulares', 'reparación de teléfonos', 'servicio técnico móvil', 'reparación de pantallas', 'cambio de baterías', 'reparación de hardware', 'San Miguel', 'Buenos Aires', 'técnico', 'fixum', 'pin de carga', 'daño por agua', 'problemas de software', 'servicio rápido', 'barato', 'calidad', 'premium', 'atención personalizada', 'cámara', 'altavoz', 'botones', 'diagnóstico gratuito', 'presupuesto', 'reparacion', 'reparaciones', 'reparacion de', 'reparación', 'arreglos de', 'celular dañado', 'telefono roto', 'fixum reparaciones', 'celulares', 'celular', 'telefono', 'smartphone'],
   openGraph: {
     title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
     description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',
