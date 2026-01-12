@@ -31,11 +31,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Fixum', // El nombre que quieres que aparezca
+    alternateName: ['Fixum Reparaciones', 'Fixum San Miguel'], // Opcional
+    url: 'https://fixum.vercel.app',
+  };
   return (
     <html lang="es">
       <body
         className={`${inter.variable} ${montserrat.variable} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <header className="sticky top-0 z-50 bg-background">
           <Navbar/>
         </header>
