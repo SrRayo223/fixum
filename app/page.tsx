@@ -85,8 +85,8 @@ const contactInfo = [
 
 export const metadata: Metadata = {
   title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
-  description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',
-  keywords: ['reparación de celulares', 'reparación de teléfonos', 'servicio técnico móvil', 'reparación de pantallas', 'cambio de baterías', 'reparación de hardware', 'San Miguel', 'Buenos Aires', 'técnico', 'fixum', 'pin de carga', 'daño por agua', 'problemas de software', 'servicio rápido', 'barato', 'calidad', 'premium', 'atención personalizada', 'cámara', 'altavoz', 'botones', 'diagnóstico gratuito', 'presupuesto', 'reparacion', 'reparaciones', 'reparacion de', 'reparación', 'arreglos de', 'celular dañado', 'telefono roto', 'fixum reparaciones', 'celulares', 'celular', 'telefono', 'smartphone'],
+  description: 'Reparación de celulares en San Miguel con atención personalizada. Cambio de pantallas, baterías y servicio técnico especializado. ¡Presupuesto en el acto! Whatsapp: 11 4038-6681',
+  keywords: ['reparación de celulares', 'reparación de teléfonos', 'servicio técnico móvil', 'reparación de pantallas', 'cambio de baterías', 'reparación de hardware', 'San Miguel', 'Buenos Aires', 'técnico', 'fixum', 'pin de carga', 'daño por agua', 'problemas de software', 'servicio rápido', 'barato', 'calidad', 'premium', 'atención personalizada', 'cámara', 'altavoz', 'botones', 'diagnóstico gratuito', 'presupuesto'],
   openGraph: {
     title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
     description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',

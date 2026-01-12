@@ -23,7 +23,7 @@ const montserrat = Montserrat(
 
 export const metadata: Metadata = {
   title: "Fixum | Reparación y diagnóstico de Celulares en San Miguel",
-  description: "Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!",
+  description: "Reparación de celulares en San Miguel con atención personalizada. Cambio de pantallas, baterías y servicio técnico especializado. ¡Presupuesto en el acto! Whatsapp: 11 4038-6681",
 };
 
 export default function RootLayout({
