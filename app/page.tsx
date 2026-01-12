@@ -86,7 +86,7 @@ const contactInfo = [
 export const metadata: Metadata = {
   title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
   description: 'Reparación de celulares en San Miguel con atención personalizada. Cambio de pantallas, baterías y servicio técnico especializado. ¡Presupuesto en el acto! Whatsapp: 11 4038-6681',
-  keywords: ['reparación de celulares', 'reparación de teléfonos', 'servicio técnico móvil', 'reparación de pantallas', 'cambio de baterías', 'reparación de hardware', 'San Miguel', 'Buenos Aires', 'técnico', 'fixum', 'pin de carga', 'daño por agua', 'problemas de software', 'servicio rápido', 'barato', 'calidad', 'premium', 'atención personalizada', 'cámara', 'altavoz', 'botones', 'diagnóstico gratuito', 'presupuesto'],
+  keywords: ['reparación de celulares', 'reparación de teléfonos', 'servicio técnico móvil', 'reparación de pantallas', 'cambio de baterías', 'reparación de hardware', 'San Miguel', 'Buenos Aires', 'técnico', 'fixum', 'pin de carga', 'daño por agua', 'problemas de software', 'servicio rápido', 'barato', 'calidad', 'premium', 'atención personalizada', 'cámara', 'altavoz', 'botones', 'diagnóstico gratuito', 'presupuesto', 'android', 'iphone', 'ios', 'tablet', 'tablets'],
   openGraph: {
     title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
     description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',
@@ -130,7 +130,7 @@ export default function Home() {
       <section className="relative flex flex-col lg:flex-row items-center justify-center min-h-screen p-4 gap-4 bg-linear-to-br from-primary-100 to-[#3b4ac2] py-20">
         <div className="flex flex-col text-background gap-4">
           <h1 className="text-4xl font-bold">Reparación de Celulares con dedicación</h1>
-          <p className="text-lg">Reparo tu celular con atención personalizada y repuestos de calidad. También lo reviso para hacer un diagnóstico sin cargo.</p>
+          <p className="text-lg">Ya sea Android, iPhone, o incluso tablet, reparo tu dispositivo con atención personalizada y repuestos de calidad. También lo reviso para hacer un diagnóstico sin cargo.</p>
           <div className="self-start flex gap-4 mt-2 flex-wrap">
             <Link href="#servicios" className="bg-accent-100 text-background p-3 px-5 text-sm font-bold rounded-lg secondary-button">Ver Servicios</Link>
             <Link href="#contacto" className="bg-background text-primary-100 p-3 px-5 text-sm font-bold rounded-lg primary-button">Contactame</Link>
