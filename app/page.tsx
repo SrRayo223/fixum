@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faMobileScreen, faDroplet, faBolt, faMicrochip, faWrench, faBattery, faHeart, faClock, faDollarSign, faShield, faEnvelope, faLocation, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faMobileScreen, faDroplet, faBolt, faMicrochip, faWrench, faBattery, faHeart, faClock, faDollarSign, faShield, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 
