@@ -167,7 +167,7 @@ export default function Home() {
         </div>
         <div className="mt-8">
           <h2 className="text-3xl text-primary-100 mb-4">¿Por Qué Elegirme?</h2>
-          <p className="text-lg mb-6">Como técnico independiente, ofrezco un servicio personalizado y atención al detalle que las grandes tiendas no pueden igualar. Cada reparación recibe mi total dedicación para asegurar que tu celular funcione perfectamente. Además, reviso tu celular para poder hacer un diagnóstico sin cargo.</p>
+          <p className="text-lg mb-6">Como técnico independiente, ofrezco un servicio personalizado y atención al detalle que las grandes tiendas no pueden igualar. Cada reparación recibe mi total dedicación para asegurar que tu celular funcione perfectamente. Además, lo reviso para realizar un diagnóstico sin cargo.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {caracteristicas.map((caracteristica, index) => (
               <article key={index} className="flex items-center gap-4 mb-6">
