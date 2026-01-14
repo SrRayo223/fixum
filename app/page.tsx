@@ -77,7 +77,7 @@ const contactInfo = [
   },
   {
     icon: faLocationDot,
-    title: 'Zona de encuentro',
+    title: 'Zona de trabajo',
     content: 'San Miguel, Buenos Aires',
     href: 'https://maps.app.goo.gl/DXJu3nfmMkTgJjgs7',
   },
