@@ -52,7 +52,7 @@ export default function Footer() {
                     </li>
                     <li>
                         <a href="#sobre-mi" className="opacity-80 hover:opacity-100 hover:text-accent-100 transition-colors">
-                        Sobre mí
+                        Nosotros
                         </a>
                     </li>
                     <li>
@@ -64,7 +64,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="mb-4">Seguime</h3>
+                    <h3 className="mb-4">Seguinos</h3>
                     <div className="flex gap-4">
                     {socialLinks.map((social, index) => {
                         const Icon = social.icon;

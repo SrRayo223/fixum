@@ -25,7 +25,7 @@ const servicios = [
   {
     icon: faWrench,
     title: 'Reparación de Hardware',
-    description: 'Soluciono problemas de botones, cámaras, altavoces y otros componentes.',
+    description: 'Solución a problemas de botones, cámaras, altavoces y otros componentes.',
   },
   {
     icon: faBolt,
@@ -43,12 +43,12 @@ const caracteristicas = [
   {
     icon: faHeart,
     title: 'Atención Personalizada',
-    description: 'Cada reparación recibe mi total atención',
+    description: 'Cada reparación recibe nuestra total atención',
   },
   {
     icon: faClock,
     title: 'Tiempo de Respuesta',
-    description: 'Trabajo rápido sin comprometer la calidad',
+    description: 'Trabajamos rápido sin comprometer la calidad',
   },
   {
     icon: faDollarSign,
@@ -89,7 +89,7 @@ export const metadata: Metadata = {
   keywords: ['reparación de celulares', 'reparación de teléfonos', 'servicio técnico móvil', 'reparación de pantallas', 'cambio de baterías', 'reparación de hardware', 'San Miguel', 'Buenos Aires', 'técnico', 'fixum', 'pin de carga', 'daño por agua', 'problemas de software', 'servicio rápido', 'barato', 'calidad', 'premium', 'atención personalizada', 'cámara', 'altavoz', 'botones', 'diagnóstico gratuito', 'presupuesto', 'android', 'iphone', 'ios', 'tablet', 'tablets'],
   openGraph: {
     title: 'Fixum | Reparación y diagnóstico de Celulares en San Miguel',
-    description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactame hoy mismo!',
+    description: 'Reparación de celulares en San Miguel con atención personalizada y repuestos de calidad. ¡Contactanos hoy mismo!',
     url: 'https://fixum.vercel.app',
     siteName: 'Fixum Reparaciones',
     locale: 'es_AR',
@@ -130,10 +130,10 @@ export default function Home() {
       <section className="relative flex flex-col lg:flex-row items-center justify-center min-h-screen p-4 gap-4 bg-linear-to-br from-primary-100 to-[#3b4ac2] py-20">
         <div className="flex flex-col text-background gap-4">
           <h1 className="text-4xl font-bold">Reparación de Celulares con dedicación</h1>
-          <p className="text-lg">Ya sea Android, iPhone, o incluso tablet, reparo tu dispositivo con atención personalizada y repuestos de calidad. También lo reviso para hacer un diagnóstico sin cargo.</p>
+          <p className="text-lg">Ya sea Android, iPhone, o incluso tablet, reparamos tu dispositivo con atención personalizada y repuestos de calidad. También lo revisamos para hacer un diagnóstico sin cargo.</p>
           <div className="self-start flex gap-4 mt-2 flex-wrap">
             <Link href="#servicios" className="bg-accent-100 text-background p-3 px-5 text-sm font-bold rounded-lg secondary-button">Ver Servicios</Link>
-            <Link href="#contacto" className="bg-background text-primary-100 p-3 px-5 text-sm font-bold rounded-lg primary-button">Contactame</Link>
+            <Link href="#contacto" className="bg-background text-primary-100 p-3 px-5 text-sm font-bold rounded-lg primary-button">Contactanos</Link>
           </div>
         </div>
         <Image
@@ -145,7 +145,7 @@ export default function Home() {
         />
       </section>
       <section id="servicios" className="bg-[#e0e0e0] flex flex-col items-center gap-6 text-center py-20 px-4">
-        <h2 className="text-3xl text-primary-100">Servicios que Ofrezco</h2>
+        <h2 className="text-3xl text-primary-100">Nuestros Servicios</h2>
         <p className="text-xl text-secondary-100 mx-auto">Diagnósticos y restauraciones realizados con cuidado para las necesidades de tu celular.</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {servicios.map((servicio, index) => (
@@ -166,8 +166,8 @@ export default function Home() {
           <Image alt="Celular con daño en la tapa trasera." src="/images/celular-roto.jpg" width={1080} height={648} className="rounded-lg shadow-lg w-full h-auto"/>
         </div>
         <div className="mt-8">
-          <h2 className="text-3xl text-primary-100 mb-4">¿Por Qué Elegirme?</h2>
-          <p className="text-lg mb-6">Como técnico independiente, ofrezco un servicio personalizado y atención al detalle que las grandes tiendas no pueden igualar. Cada reparación recibe mi total dedicación para asegurar que tu celular funcione perfectamente. Además, lo reviso para realizar un diagnóstico sin cargo.</p>
+          <h2 className="text-3xl text-primary-100 mb-4">¿Por Qué Elegirnos?</h2>
+          <p className="text-lg mb-6">Ofrecemos un servicio personalizado y atención al detalle que las grandes tiendas no pueden igualar. Cada reparación recibe nuestra total dedicación para asegurar que tu celular funcione perfectamente. Además, lo revisamos para realizar un diagnóstico sin cargo.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {caracteristicas.map((caracteristica, index) => (
               <article key={index} className="flex items-center gap-4 mb-6">
@@ -184,8 +184,8 @@ export default function Home() {
         </div>
       </section>
       <section id="contacto" className="bg-[#e0e0e0] flex flex-col items-center gap-6 text-center py-20 px-4">
-        <h2 className="text-primary-100 text-3xl">Contactame</h2>
-        <p className="text-secondary-100 text-xl mx-auto">¿Tenés preguntas o querés reservar una reparación? Estoy para ayudarte!</p>
+        <h2 className="text-primary-100 text-3xl">Contactanos</h2>
+        <p className="text-secondary-100 text-xl mx-auto">¿Tenés preguntas o querés reservar una reparación? ¡Estamos para ayudarte!</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 w-full max-w-4xl">
           {contactInfo.map((info, index) => (
             <article key={index}>

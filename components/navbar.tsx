@@ -10,7 +10,7 @@ export default function Navbar() {
             </div>
             <ul className="hidden md:flex gap-6 text-secondary-100">
                 <li><Link className=" hover:text-accent-100 transition-colors" href="#servicios">Servicios</Link></li>
-                <li><Link className=" hover:text-accent-100 transition-colors" href="#sobre-mi">Sobre mí</Link></li>
+                <li><Link className=" hover:text-accent-100 transition-colors" href="#sobre-mi">Nosotros</Link></li>
                 <li><Link className=" hover:text-accent-100 transition-colors" href="#contacto">Contacto</Link></li>
             </ul>
             <Link href="#contacto" className="bg-primary-100 text-background p-2 px-3 text-sm font-bold rounded-lg primary-button">Cotizar</Link>
